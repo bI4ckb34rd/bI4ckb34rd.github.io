@@ -57,7 +57,7 @@ If you find **CodeKalak** helpful or enjoyable, consider supporting us by donati
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source and available under the [MIT License](https://github.com/bI4ckb34rd/bI4ckb34rd.github.io/blob/main/LICENSE).
 
 ---
 

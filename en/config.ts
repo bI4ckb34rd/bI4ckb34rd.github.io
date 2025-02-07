@@ -4,7 +4,17 @@ export const config = {
     { text: "Guides", link: "/en/guides/" },
     { text: "Blog", link: "/en/blog/" },
   ],
-  sidebar: [],
+  sidebar: [
+    {
+      text: "VPS Setup",
+      items: [
+        {
+          text: "Setting Up VPS Firewall Using UFW",
+          link: "/en/guides/ufw.md",
+        },
+      ],
+    },
+  ],
   footer: {
     message:
       'Released under the <a href="https://github.com/bI4ckb34rd/bI4ckb34rd.github.io/blob/main/LICENSE">MIT License</a>',

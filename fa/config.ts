@@ -6,7 +6,17 @@ export const config: DefaultTheme.Config = {
     { text: "راهنمایی‌ها", link: "/fa/guides/" },
     { text: "بلاگ", link: "/fa/blog/" },
   ],
-  sidebar: [],
+  sidebar: [
+    {
+      text: "پیکربندی VPS",
+      items: [
+        {
+          text: "تنظیم فایروال VPS با UFW",
+          link: "/fa/guides/ufw.md",
+        },
+      ],
+    },
+  ],
   footer: {
     message:
       'Released under the <a href="https://github.com/bI4ckb34rd/bI4ckb34rd.github.io/blob/main/LICENSE">MIT License</a>',
@@ -24,6 +34,7 @@ export const config: DefaultTheme.Config = {
     next: "صفحه بعد",
   },
   sidebarMenuLabel: "منو",
+  darkModeSwitchLabel: "تم",
 };
 
 export default config;
